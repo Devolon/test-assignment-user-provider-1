@@ -18,7 +18,6 @@ Accept: application/json
 GET http://localhost:3000/users/10
 Accept: application/json
 ```
-```
 
 ### Increase user credit
 ```http request
