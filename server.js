@@ -35,7 +35,8 @@ app.get("/users", (req, res) => {
   res.json({
     page: page,
     pageCount: pageCount,
-    posts: users.slice(page * pageSize - pageSize, page * pageSize),
+    total: users.length,
+    items: users.slice(page * pageSize - pageSize, page * pageSize),
   });
 });
 
