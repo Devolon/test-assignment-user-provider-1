@@ -19,6 +19,12 @@ GET http://localhost:3000/users/10
 Accept: application/json
 ```
 
+### Getting a specific user details by email
+```http request
+GET http://localhost:3000/users/rburlingham0@ucla.edu
+Accept: application/json
+```
+
 ### Increase user credit
 ```http request
 PUT http://localhost:3000/users/10/credit
